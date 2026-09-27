@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Über uns – MS Metallbau</title>
+  <meta name="description" content="Menger & Strotmann: zwei Metallbauer, ein gemeinsamer Anspruch. Über die Geschäftsführer Kai und Leon von MS Metallbau.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/logo/logo.jpeg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MS Metallbau – Menger & Strotmann GbR">
+  <meta property="og:title" content="Über uns – MS Metallbau">
+  <meta property="og:description" content="Menger & Strotmann: zwei Metallbauer, ein gemeinsamer Anspruch. Über die Geschäftsführer Kai und Leon von MS Metallbau.">
+  <meta property="og:image" content="assets/img/og-default.jpg">
+  <!-- No-Flash-Theme: MUSS vor sichtbarem Inhalt stehen -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('ms-theme');
+        if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/logo/logo-trimmed.jpg" alt="MS Metallbau – Menger & Strotmann GbR"></a>
+      <div class="header-actions">
+        <nav id="primary-nav" aria-label="Hauptnavigation">
+          <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li class="has-dropdown">
+              <button class="dropdown-toggle" aria-expanded="false">Leistungen ▾</button>
+              <ul class="dropdown">
+                <li><a href="leistungen/gelaender.html">Geländer</a></li>
+                <li><a href="leistungen/treppen.html">Treppen</a></li>
+                <li><a href="leistungen/podeste-balkone.html">Podeste &amp; Balkone</a></li>
+                <li><a href="leistungen/handlaeufe.html">Handläufe</a></li>
+                <li><a href="leistungen/sonderkonstruktionen.html">Sonderkonstruktionen</a></li>
+              </ul>
+            </li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" aria-label="Farbschema umschalten" aria-pressed="false">
+          <span class="icon-sun" aria-hidden="true">☀</span><span class="icon-moon" aria-hidden="true">☾</span>
+        </button>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Über uns</p>
+        <h1>Menger &amp; Strotmann</h1>
+        <p>Zwei Metallbauer, ein gemeinsamer Anspruch: Metall in seiner schönsten Form.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container profile reveal">
+        <div class="profile__img" style="background-image:url('assets/img/kai-zuhause.jpg')" role="img" aria-label="Foto Kai [Nachname]"></div>
+        <div class="profile__text">
+          <p class="eyebrow">Geschäftsführer</p>
+          <h2>Kai [Nachname]</h2>
+          <p>[Platzhalter Biografie: Ausbildung, Meister/Qualifikationen, Schwerpunkte, Jahre Erfahrung. 3–5 Sätze.]</p>
+          <ul>
+            <li>[Qualifikation, z. B. Metallbaumeister]</li>
+            <li>[Schwerpunkt, z. B. Konstruktion &amp; Planung]</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container profile profile--reverse reveal">
+        <div class="profile__img" style="background-image:url('assets/img/leon.jpg')" role="img" aria-label="Foto Leon [Nachname]"></div>
+        <div class="profile__text">
+          <p class="eyebrow">Geschäftsführer</p>
+          <h2>Leon [Nachname]</h2>
+          <p>[Platzhalter Biografie: Ausbildung, Qualifikationen, Schwerpunkte. 3–5 Sätze.]</p>
+          <ul>
+            <li>[Qualifikation]</li>
+            <li>[Schwerpunkt, z. B. Fertigung &amp; Montage]</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container reveal" style="text-align:center">
+        <h2>Lernen wir uns kennen</h2>
+        <a class="btn" href="kontakt.html">Kontakt aufnehmen</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="footer-logo" href="index.html"><img src="assets/logo/logo-trimmed.jpg" alt="MS Metallbau – Menger & Strotmann GbR"></a>
+      <p class="footer-slogan">Präzision. Stabilität. Design.</p>
+      <nav aria-label="Rechtliches und Social">
+        <a href="https://instagram.com/PLATZHALTER" target="_blank" rel="noopener">Instagram</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+      <small>© <span id="year">2026</span> MS Metallbau – Menger &amp; Strotmann GbR</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
